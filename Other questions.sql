@@ -33,8 +33,13 @@ JOIN course co ON co.crs_code = ps.ps_course_code
 JOIN program pg ON pg.prog_number = ps.ps_prog_number
 ORDER BY 1,3;
 
+-- QUESTION 7
 
-
-
+CREATE VIEW BSC4_Mathematics AS 
+SELECT stu.*, pg.prog_name, ha.hall_name
+FROM Student stu
+JOIN Program pg ON stu.prog_number = pg.prog_number
+JOIN Hall ha ON stu.hall_number = ha.hall_number
+WHERE pg.prog_number = 'BSC4';
 
 
