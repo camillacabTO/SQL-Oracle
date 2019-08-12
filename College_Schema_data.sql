@@ -18,8 +18,8 @@ Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC1','Bachelor of Science 
 Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC2','Bachelor of Science in Computer Science');
 Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC3','Bachelor of Science in Eletronic Engineering');
 Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC4','Bachelor of Science in Mathematics');
-Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC5','Bachelor of Science in Computer Science & Mathematics');
-Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC6','Bachelor of Science in Computer Science & Eletronics');
+Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC5','Bachelor of Science in Computer Science and Mathematics');
+Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC6','Bachelor of Science in Computer Science and Eletronics');
 Insert into PROGRAM (PROG_NUMBER,PROG_NAME) values ('BSC7','Bachelor of Science in Chemistry');
 Insert into PROGRAM( PROG_NUMBER,PROG_NAME) values ('BSC8','Bachelor of Science in Physics');
 
@@ -81,9 +81,9 @@ Insert into PROGRAM_STRUCTURE (PS_PROG_NUMBER,PS_COURSE_CODE,PS_CODE_SEQ_NUMBER)
     values ('BSC2','M100',16);
 
 Insert into DIVISION (DIV_NUMBER,DIV_NAME,DIV_HEAD)
-    values ('D01','Division of Pure & Applied Sciences','S25');
+    values ('D01','Division of Pure and Applied Sciences','S25');
 Insert into DIVISION (DIV_NUMBER,DIV_NAME,DIV_HEAD)
-    values ('D02','Division of Arts & Humanities','S30');
+    values ('D02','Division of Arts and Humanities','S30');
 Insert into DIVISION (DIV_NUMBER,DIV_NAME,DIV_HEAD)
-    values ('D03','Division of Education & Psychology','S35');
+    values ('D03','Division of Education and Psychology','S35');
 
